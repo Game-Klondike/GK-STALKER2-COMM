@@ -1,0 +1,12 @@
+name: Переклад / текст
+description: Помилка в тексті інтерфейсу або перекладі
+labels: [i18n]
+body:
+  - type: input
+    id: where
+    attributes: { label: Де саме, placeholder: "Сторінка / кнопка / текст" }
+    validations: { required: true }
+  - type: textarea
+    id: fix
+    attributes: { label: Як має бути }
+    validations: { required: true }

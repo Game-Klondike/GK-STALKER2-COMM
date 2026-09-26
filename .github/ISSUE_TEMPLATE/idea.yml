@@ -1,0 +1,8 @@
+name: Пропозиція
+description: Нова функція або покращення
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes: { label: Що пропонуєте і навіщо }
+    validations: { required: true }

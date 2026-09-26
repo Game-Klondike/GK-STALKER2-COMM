@@ -1,0 +1,17 @@
+name: Помилка в застосунку
+description: Щось не працює, не відкривається, зависає, показує не те
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: Що сталося }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Що мало б бути }
+  - type: textarea
+    id: steps
+    attributes: { label: Як повторити, placeholder: "1. Відкрив… 2. Натиснув… 3. …" }
+  - type: textarea
+    id: context
+    attributes: { label: Технічний контекст, description: "Браузер, пристрій, версія (блок «Контекст» зі звіту застосунку)." }

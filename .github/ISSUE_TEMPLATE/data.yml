@@ -1,0 +1,18 @@
+name: Помилка в даних
+description: Неправильна характеристика, ціна, точка на мапі, назва, квест
+labels: [data]
+body:
+  - type: input
+    id: subject
+    attributes: { label: Про що йдеться, placeholder: "Назва зброї / броні / предмета / квесту / сховка" }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: Що не так, description: "Що показує застосунок і що є насправді в грі." }
+    validations: { required: true }
+  - type: textarea
+    id: proof
+    attributes: { label: Як перевірити, description: "Скриншот з гри, версія гри, складність — усе, що допоможе звірити." }
+  - type: textarea
+    id: context
+    attributes: { label: Технічний контекст, description: "Якщо звіт з застосунку — вставте блок «Контекст» сюди." }
