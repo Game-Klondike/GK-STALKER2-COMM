@@ -1,0 +1,19 @@
+# Мітки репозиторію; синхронізуються workflow-ом labels.yml при кожній зміні цього файлу.
+- name: data
+  color: d9a441
+  description: Помилка в даних гри (характеристики, ціни, мапа, квести)
+- name: bug
+  color: d9614f
+  description: Помилка в застосунку
+- name: enhancement
+  color: 6fa3c7
+  description: Пропозиція
+- name: i18n
+  color: a77bd6
+  description: Переклад / текст
+- name: sync
+  color: 7fb069
+  description: Zone Sync (збереження, агент)
+- name: good first issue
+  color: 7fb069
+  description: Підходить новим учасникам
